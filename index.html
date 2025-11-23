@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name= "viewport" content="width=device-width, inital-scale= 1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header>
+		<h1>First Portfolio</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#work">Work</a></li>
+			<li><a href="#content">Content</a></li>
+
+		</ul>
+	</nav>
+
+	<main>
+		<section id="about">
+			<h2>About</h2>
+
+			<div class="about-container">
+            <img src="https://cdn.dribbble.com/userupload/4246709/file/original-7ec7d3e380f5f080b4d0fea878dc4375.jpg?compress=1&resize=1504x1128" class="profile-img">
+
+			<p><h3>This weather app provides real-time temperature, humidity, and forecast data based on your location.
+               It is designed to be simple, fast, and user‑friendly, offering accurate weather updates at a glance.
+               Whether you're planning your day or checking upcoming conditions, this app has you covered.</h3>
+           </p>
+			
+		</section>
+		<section id="work">
+           <h2>Project</h2>
+           <h3>1. Real-Time Weather Data</h3>
+           <p>Shows live temperature, humidity, wind speed, and weather conditions using data fetched instantly from a weather API.</p>
+           <h3>2. Location-Based Updates</h3>
+           <p>Automatically detects the user’s location or allows manual city input to give accurate, local weather information.</p>
+           <h3>3. Clean & Simple UI</h3>
+           <p>A minimal, easy-to-read interface optimized for fast access and works smoothly on both mobile and desktop devices.</p>
+           <h3>4. Forecast Information</h3>
+           <p>Includes hourly or weekly forecasts with weather icons for clearer and more visual weather updates.</p>
+
+        </section>
+        
+        <section id="content">
+        	<h2>Content</h2>
+        	<form>
+        		<div>
+        			<label for="name">Full Name</label>
+        			<br>
+                    <input type="text" id="name" name="name" required>
+        		</div>
+        		<div>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+
+                <div>
+                    <label for="message">Your Message</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+
+                <button type="submit">Send Message</button>
+        	</form>
+        	
+        </section>   
+	</main>
+
+	<footer>
+    <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
